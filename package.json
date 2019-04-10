@@ -1,0 +1,22 @@
+{
+  "name": "gis_para_desarrolladores",
+  "version": "1.0.0",
+  "description": "Si es la primera vez que te acercas al mundo de los sistemas de Información Geográfica (SIG o GIS) , esta introducción puede venirte bien para ponerte en contexto",
+  "main": "index.js",
+  "scripts": {
+    "update-toc": "./node_modules/doctoc/doctoc.js --title '**Índice**' README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esri-es/GIS_para_desarrolladores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esri-es/GIS_para_desarrolladores/issues"
+  },
+  "homepage": "https://github.com/esri-es/GIS_para_desarrolladores#readme",
+  "devDependencies": {
+    "doctoc": "^1.4.0"
+  }
+}

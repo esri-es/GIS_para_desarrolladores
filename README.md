@@ -1,3 +1,39 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Índice**
+
+- [¿Qué significa el término GIS?](#%C2%BFqu%C3%A9-significa-el-t%C3%A9rmino-gis)
+- [¿Para qué sirven los sistemas GIS? ¿Qué aplicaciones tiene?](#%C2%BFpara-qu%C3%A9-sirven-los-sistemas-gis-%C2%BFqu%C3%A9-aplicaciones-tiene)
+- [¿Cómo funciona un GIS y qué tipo de información maneja?](#%C2%BFc%C3%B3mo-funciona-un-gis-y-qu%C3%A9-tipo-de-informaci%C3%B3n-maneja)
+  - [¿Cómo se geo-referencia?](#%C2%BFc%C3%B3mo-se-geo-referencia)
+    - [Las mediciones siempre son relativas](#las-mediciones-siempre-son-relativas)
+    - [Sistemas de Referencia](#sistemas-de-referencia)
+      - [Elipsoide](#elipsoide)
+      - [Datum](#datum)
+    - [¿Por qué hay distintos sistemas de Referencia?](#%C2%BFpor-qu%C3%A9-hay-distintos-sistemas-de-referencia)
+      - [Sistema de Referencia oficial en España](#sistema-de-referencia-oficial-en-espa%C3%B1a)
+      - [Sistema de Referencia Global WGS84](#sistema-de-referencia-global-wgs84)
+      - [Compatibilidad entre el ETRS89 y el WGS84](#compatibilidad-entre-el-etrs89-y-el-wgs84)
+      - [¿Cómo hago para transformar mis datos si los tengo en un sistema de referencia distinto?](#%C2%BFc%C3%B3mo-hago-para-transformar-mis-datos-si-los-tengo-en-un-sistema-de-referencia-distinto)
+    - [Sistemas de Coordenadas](#sistemas-de-coordenadas)
+      - [Horizontal](#horizontal)
+      - [Vertical](#vertical)
+    - [Proyecciones](#proyecciones)
+      - [Explorando Proyecciones](#explorando-proyecciones)
+  - [Fuentes de Datos GIS](#fuentes-de-datos-gis)
+    - [Imagery (Raster)](#imagery-raster)
+    - [Qué tipo de información puedo usar a partir de imágenes](#qu%C3%A9-tipo-de-informaci%C3%B3n-puedo-usar-a-partir-de-im%C3%A1genes)
+    - [Vectorial](#vectorial)
+      - [Operaciones geométricas](#operaciones-geom%C3%A9tricas)
+    - [Tabular](#tabular)
+    - [Servicios](#servicios)
+  - [Tipos de Análisis Espacial](#tipos-de-an%C3%A1lisis-espacial)
+    - [Nuestra API en Python](#nuestra-api-en-python)
+    - [Ejemplos](#ejemplos)
+- [Anexo](#anexo)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # ¿Qué significa el término GIS?
 
 El término significa **Geographic Information Systems**, (**SIG** en castellano)
