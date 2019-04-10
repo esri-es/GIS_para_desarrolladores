@@ -173,7 +173,7 @@ Para localizar la elevación de un punto.
 
 ### Proyecciones
 
-Las proyecciones son la consecuencia de querer identificar en un plano cualquier punto del planeta (algo aproximado a una esfera, aunque está achatada por los polos). Esta operación siempre supone una distorsión. Y aquí viene lo que para mucha gente pasa desapercibido.
+Las proyecciones son la consecuencia de querer identificar en un plano cualquier punto del planeta (algo aproximado a una esfera, aunque está achatada por los polos). Esta operación siempre supone una distorsión (puedes verlo mejor ilustrado en este vídeo "[The Impossible Map](https://www.youtube.com/watch?v=wkK_HsY7S_4)" ). Y aquí viene lo que para mucha gente pasa desapercibido.
 
 
 Los mapas que vemos habitualmente en la web,usan una proyección llamada **Mercator**, que altera la percepción del tamaño de los países.
